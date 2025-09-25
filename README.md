@@ -47,12 +47,12 @@ The program creates a summary.json file with the structure:
     "Words count": { "hello": 1, "world": 1, ... },
     "Top-5 words": [["test", 2], ["this", 2], ["hello", 1], ["world", 1], ["contains", 1]]
 }
-Features
+## Features
 Case-insensitive word counting.
 
 Removes punctuation around words.
 
 Interactive menu allows choosing specific functions without restarting the script.
 
-Note
+## Note
 You need a text file (e.g., input.txt) in the same folder, or provide the full path to a text file when prompted.
