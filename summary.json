@@ -1,0 +1,46 @@
+{
+    "Letters count": {
+        "h": 3,
+        "e": 5,
+        "l": 5,
+        "o": 3,
+        "w": 1,
+        "r": 1,
+        "d": 1,
+        "t": 7,
+        "i": 2,
+        "s": 5,
+        "a": 1
+    },
+    "Total words quantity": 9,
+    "Words count": {
+        "hello": 2,
+        "world": 1,
+        "this": 1,
+        "is": 1,
+        "a": 1,
+        "test": 3
+    },
+    "Top-5 words": [
+        [
+            "test",
+            3
+        ],
+        [
+            "hello",
+            2
+        ],
+        [
+            "world",
+            1
+        ],
+        [
+            "this",
+            1
+        ],
+        [
+            "is",
+            1
+        ]
+    ]
+}
