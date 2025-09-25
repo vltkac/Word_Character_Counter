@@ -18,41 +18,49 @@ Results are saved to `summary.json` and can also be displayed in the console.
 
 ```bash
 python main.py
-Enter the file name (or full path) when prompted.
+```
 
-Choose one of the menu options:
+3. Enter the file name (or full path) when prompted.
+4. Choose one of the menu options:
 
-Count letters frequency
+- `1` — Count letters frequency  
+- `2` — Count total words  
+- `3` — Count word frequency  
+- `4` — Generate full summary and save to JSON  
+- `5` — Exit  
 
-Count total words
+---
 
-Count word frequency
+## Input File Format
+The text file (`.txt`) can contain any text. Example:
 
-Generate full summary and save to JSON
-
-Exit
-
-Input File Format
-The text file (.txt) can contain any text. For example:
-
-
+```
 Hello world! This is a test.
 This test contains words, letters, and punctuation.
-Output Format
-The program creates a summary.json file with the structure:
+```
 
+---
+
+## Output Format
+The program creates a `summary.json` file with the following structure:
+
+```json
 {
     "Letters count": { "a": 5, "b": 2, ... },
     "Total words quantity": 20,
     "Words count": { "hello": 1, "world": 1, ... },
     "Top-5 words": [["test", 2], ["this", 2], ["hello", 1], ["world", 1], ["contains", 1]]
 }
+```
+
+---
+
 ## Features
-Case-insensitive word counting.
+- Case-insensitive word counting  
+- Removes punctuation around words  
+- Interactive menu allows choosing specific functions without restarting the script  
 
-Removes punctuation around words.
-
-Interactive menu allows choosing specific functions without restarting the script.
+---
 
 ## Note
-You need a text file (e.g., input.txt) in the same folder, or provide the full path to a text file when prompted.
+You need a text file (e.g., `input.txt`) in the same folder, or provide the full path to a text file when prompted.
